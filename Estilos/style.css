@@ -69,9 +69,11 @@ section#redes img:hover{
 }
 
 
-@media only screen and (max-width: 375px) {
-    section#redes img {
-        height: 30px; /* Reduz o tamanho dos ícones */
+@media only screen and (max-width: 400px) {
+    section#telefone {
+        position: absolute;
+        top: 50%;
+        left: 45%;
     }
-}
 
+}
