@@ -4,6 +4,12 @@
     margin: 0px;
     padding-left: 0px;
 }
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
 html,body{
     width: 100vw;
     height: 100vh;
@@ -26,6 +32,7 @@ section#telefone {
     left: 50%;
     
     background: url('../imagens/frame-iphone.png') no-repeat;
+    background-attachment: fixed;
     width: 311px;
     height: 627px;
 
