@@ -67,3 +67,11 @@ section#redes img:hover{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.692);
     transition: transform .3s, border .3s;
 }
+
+
+@media only screen and (max-width: 375px) {
+    section#redes img {
+        height: 30px; /* Reduz o tamanho dos ícones */
+    }
+}
+
